@@ -1,1 +1,19 @@
+# Bai 2
+#include <iostream>
+using namespace std;
 
+int main() {
+    float w, h;
+
+    cout << "Nhap chieu rong W: ";
+    cin >> w;
+
+    cout << "Nhap chieu cao H: ";
+    cin >> h;
+
+    float dienTich = w * h;
+
+    cout << "Dien tich = " << dienTich;
+
+    return 0;
+}
