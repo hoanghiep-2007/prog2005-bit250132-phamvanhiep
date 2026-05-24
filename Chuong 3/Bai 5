@@ -1,0 +1,6 @@
+# Bai 5
+text = input("Nhập một chuỗi: ")
+
+count_a = text.count('a')
+
+print("Số lần xuất hiện của chữ 'a' là:", count_a)
