@@ -1,0 +1,14 @@
+3 Bai 8
+try:
+    a = int(input("Nhập số thứ nhất: "))
+    b = int(input("Nhập số thứ hai: "))
+
+    result = a / b
+
+    print("Kết quả phép chia là:", result)
+
+except ZeroDivisionError:
+    print("Lỗi: Không thể chia cho 0")
+
+except ValueError:
+    print("Lỗi: Vui lòng nhập số nguyên hợp lệ")
