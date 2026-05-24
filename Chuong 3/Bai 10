@@ -1,0 +1,14 @@
+# Bai 10
+for i in range(1, 4):
+    print(f"\nNhập thông tin sinh viên {i}")
+
+    name = input("Tên sinh viên: ")
+
+    math_score = float(input("Điểm Toán: "))
+    physics_score = float(input("Điểm Lý: "))
+    chemistry_score = float(input("Điểm Hóa: "))
+
+    average = (math_score + physics_score + chemistry_score) / 3
+
+    print("Tên sinh viên:", name)
+    print(f"Điểm trung bình: {average:.2f}")
