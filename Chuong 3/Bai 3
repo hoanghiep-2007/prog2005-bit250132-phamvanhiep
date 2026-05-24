@@ -1,0 +1,9 @@
+# Bai 3
+def greet(name="Student"):
+    print("Hello,", name + "!")
+
+# Gọi không có đối số
+greet()
+
+# Gọi có đối số
+greet("Hiệp")
