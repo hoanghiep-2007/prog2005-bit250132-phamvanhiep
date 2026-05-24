@@ -1,1 +1,10 @@
+# Bai 9
+import math
 
+number = float(input("Nhập một số: "))
+
+if number < 0:
+    print("Lỗi: Không thể tính căn bậc hai của số âm")
+else:
+    square_root = math.sqrt(number)
+    print("Căn bậc hai là:", square_root)
