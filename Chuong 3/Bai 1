@@ -1,1 +1,10 @@
+Bai 1
+def is_even(n):
+    return n % 2 == 0
 
+number = int(input("Nhập một số nguyên: "))
+
+if is_even(number):
+    print("True - Đây là số chẵn")
+else:
+    print("False - Đây là số lẻ")
